@@ -22,7 +22,7 @@ X_test_vectorized = vectorizer.transform(X_test)
 predictions = model.predict(X_test_vectorized)
 
 # Output predictions in the specified format
-output_file = 'subtaskA/predictions/predictions.jsonl'  
+output_file = 'subtaskA/predictions/logistic_regression.jsonl'  
 with open(output_file, 'w', encoding='utf-8') as f:
     for idx in range(len(test_df)):
         text = test_df.loc[idx, 'text']
