@@ -1,3 +1,5 @@
 venv/
 wandb/
 runs/
+subtaskA/data/
+subtaskA/predictions/
